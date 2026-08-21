@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro — PopReport🎤</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="top-bar">
+    <div class="brand">
+        <a href="index.html" class="home-button">
+            <img src="Imagens/casa.png" alt="Home" class="casa">
+        </a>
+        <span class="brand-name">Pop<span>Report</span> 🎤</span>
+    </div>
+</div>
+<div class="espaco" id="form">
+    <h1 id='titulo'>Cadastro Simples</h1>
+    <form method="get">
+        <label for="nome">
+            <h2>Nome de usuário</h2>
+        </label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome"><br>
+
+        <label for="senha">
+            <h2>Senha</h2>
+        </label>
+        <input type="password" id="senha" name="senha" placeholder="••••••••"><br>
+        <button type="submit">Enviar dados</button>
+    </form>
+    <button onclick="alterarFundo()">Trocar a cor do site</button>
+    <button onclick="voltarFundo()">Voltar à cor original</button>
+</div>
+<script src="script/script.js"></script>
+</body>
+</html>
